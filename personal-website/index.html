@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanmay Arora</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/my-favicon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <nav id="navbar">
+      <a href="#navbar" class="logo">TA</a>
+      <ul class="header-container">
+        <li class="list-item"><a href="#profile" class="link">Profile</a></li>
+        <li class="list-item"><a href="#skills" class="link">Skills</a></li>
+        <li class="list-item"><a href="#contact-me" class="link">Contact me</a></li>
+      </ul>
+    </nav>
     <div class="top-container">
         <img class="top-cloud cloud" src="images/cloud.png" alt="cloud-image">
         <h1>I am Tanmay</h1>
@@ -18,14 +26,14 @@
         <img src="images/mountain.png" alt="mountain-image">
     </div>
     <div class="middle-container">
-        <div class="profile">
+        <div id="profile" class="sticky-bar">
           <img class="circle-img" src="images/Myphoto.jpg" alt="Tanmay's pic">
           <h2>Hello.</h2>
           <p class="intro">I am Tanmay Arora.I am a programming beginner trying to enhance his skills.I💖to do new things</p>
         </div>
         <hr>
-        <div class="skills">
-          <h2>My Skills</h2>
+        <div id="skills">
+          <h2 class="sticky-bar">My Skills</h2>
           <div class="skill-row">
             <img class="skill-img1" src="images/full-stack-development.gif" alt="Web-development">
             <h3>Web Development</h3>
@@ -43,7 +51,7 @@
           </div>
         </div>
         <hr>
-        <div class="contact-me">
+        <div id="contact-me">
           <h2>Get In Touch</h2>
           <h3>Wanna Join me in my Journey</h3>
           <p class="msg">Let's connect together and succeed in our journey</p>
@@ -58,5 +66,7 @@
         <a class="footer-link" href="https://github.com/tanmayarora11">Github</a>
         <p id="bottom-para">© 2020 Tanmay Arora.</p>
       </div>
+
+      
 </body>
 </html>

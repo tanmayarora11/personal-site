@@ -5,6 +5,28 @@ body{
     background-color: #F0FFFF;
     color:#40514E;
 }
+#navbar{
+    position:sticky;
+    top:0;
+    background-color:#ebfcf9 ;
+}
+.logo{
+    position:absolute;
+    left:2rem;
+    top:0.6rem;
+    vertical-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 2.625rem;
+    font-weight: 600;
+}
+.header-container{
+    text-align:right;
+    margin:0;  
+}
+.list-item{
+    display:inline-block;
+    padding:2%;
+}
 .top-container{
     background-color: #E4F9F5;
     margin:0;
@@ -13,7 +35,7 @@ body{
     position:relative; 
 }
 .middle-container{
-    margin:100px 0;
+    margin:80px 0;
 }
 .bottom-container{
     margin-top:30px;
@@ -40,7 +62,7 @@ hr{
     border: dotted #dbe6e6 6px;
     border-bottom : none;
     width:5%;
-    margin:100px auto;
+    margin:50px auto;
 }
 p{
     line-height: 2;
@@ -107,15 +129,18 @@ p{
 }
 a{
     color:#11999E;
-    padding:10px;
-    text-decoration:none;
-    margin:10px 20px;
+    text-decoration:none; 
 }
 .footer-link{
-    margin-top:40px;
+    padding:10px;
+    margin:40px 20px 10px;
 }
 a:hover{
+    cursor: pointer;
     color:#113e9e;
+}
+.sticky-bar{
+    padding-top: 60px;
 }
 button {
     background: #11cdd4;
